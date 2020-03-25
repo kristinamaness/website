@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid red;
+  height: 17vh;
+}
+
+.title {
+  font-family: "Clicker Script", cursive;
+  color: rgb(240, 190, 186);
+  padding-left: 10vw;
+  /* padding-top: 5vh; */
+  outline: 1px solid black;
+  font-size: 4em;
+}
+
+.tabs {
+  padding-right: 20px;
+  align-self: flex-end;
+}
+
+.main {
+  display: flex;
+}
+
+.text {
+  width: 65vw;
+  font-size: 14px;
+}
