@@ -3,16 +3,44 @@ import "../assets/about.css"
 
 const About = () => {
   return (
-    <div>
+    <div class="page">
       <header>
         <div class="title">About me</div>
         <div class="tabs">
           <a>home</a>|<a>about</a>|<a>blog</a>|<a>contact</a>
         </div>
       </header>
+      {/* <nav class="flex items-center justify-around flex-wrap bg-white-500 p-6">
+        <div class="flex items-center justify-center flex-grow text-black mr-6">
+          <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" xmlns="http://www.w3.org/2000/svg"><path d="M13.5 22.1c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05zM0 38.3c1.8-7.2 6.3-10.8 13.5-10.8 10.8 0 12.15 8.1 17.55 9.45 3.6.9 6.75-.45 9.45-4.05-1.8 7.2-6.3 10.8-13.5 10.8-10.8 0-12.15-8.1-17.55-9.45-3.6-.9-6.75.45-9.45 4.05z"/></svg>
+          <span class="font-cursive text-xl tracking-tight">About Me</span>
+        </div>
+         <div class="block lg:hidden">
+          <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-bold hover:border-white">
+            <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
+          </button>
+        </div> 
+        <div class="w-full block flex-grow lg:flex lg:items-end lg:w-auto">
+          <div class="text-sm lg:flex-grow">
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:font-semibold">
+              Docs 
+            </a>|
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:font-semibold">
+              Examples 
+            </a>|
+            <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 text-black-200 hover:font-semibold">
+              Blog
+            </a>
+          </div>
+          <div>
+            <a href="#" class="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0">Download</a>
+          </div>
+        </div>
+      </nav> */}
       <div class="main">
         <div class="text">
           <h3>Hey! I’m Kristina.</h3>
+          <br />
           <p>
             Hi and welcome to Kristina Maness Photography! I am a Tampa-based
             photographer specializing in a crisp, clean, elegant style that
@@ -22,6 +50,7 @@ const About = () => {
             touch and make your family shine. My work is also used by clients in
             their branding and marketing materials and more.
           </p>
+          <br />
           <p>
             As a lifestyle and natural photographer, I love to work with the
             elegant light of day — especially in the early morning hours right
@@ -30,6 +59,7 @@ const About = () => {
             beautiful photos of you and your family or loved one. (Insert heart
             eyes!)
           </p>
+          <br />
           <p>
             Your Tampa family or engagement photo shoot should be fun, fresh and
             enjoyable for everyone. Whether booking a newborn session or fresh
@@ -40,6 +70,7 @@ const About = () => {
             go over your style and must-haves to ensure perfection from start to
             finish on your special day.
           </p>
+          <br />
           <p>
             I also am known for my work with professionals — turning head shots
             into editorial quality shoots and making your business sparkle with
@@ -48,6 +79,7 @@ const About = () => {
             my work, bringing an ethereal and gorgeous glow to every project you
             need.
           </p>
+          <br />
           <p>
             When I’m not photographing clients and editing their favorites to
             perfection, my hobbies include hanging out with my boyfriend and
@@ -60,7 +92,9 @@ const About = () => {
             style.
           </p>
         </div>
-        <div class="pic"></div>
+        <div class="pic">
+          <img src="/Users/aj/projects/website/src/images/gatsby-icon.png" />
+        </div>
       </div>
     </div>
   )

@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "just_signatureregular";
+  src: url("./fonts/justsignature-webfont.woff2") format("woff2"),
+    /* local('Just Signature') format('woff2'), */
+      url("./fonts/justsignature-webfont.woff") format("woff");
+  /* local('Just Signature') format('woff'); */
+
+  font-weight: normal;
+  font-style: normal;
+}
+
+.page {
+  background-image: src= "https://imgur.com/DMW8iNR";
+}
+
 header {
   display: flex;
   flex-direction: row;
@@ -7,12 +22,13 @@ header {
 }
 
 .title {
-  font-family: "Clicker Script", cursive;
+  /* font-family: "Clicker Script", cursive; */
+  font-family: "just_signatureregular";
   color: rgb(240, 190, 186);
   padding-left: 10vw;
-  /* padding-top: 5vh; */
-  outline: 1px solid black;
-  font-size: 4em;
+  padding-top: 5vh;
+  /* outline: 1px solid black; */
+  font-size: 2em;
 }
 
 .tabs {
@@ -27,4 +43,5 @@ header {
 .text {
   width: 65vw;
   font-size: 14px;
+  padding: 3vw;
 }
