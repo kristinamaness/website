@@ -3,11 +3,12 @@ import "../assets/about.css"
 
 const About = () => {
   return (
-    <div class="page">
-      <header>
+    <div>
+      <header class="flex justify-around">
         <div class="title">About me</div>
-        <div class="tabs">
-          <a>home</a>|<a>about</a>|<a>blog</a>|<a>contact</a>
+        <div class="tabl flex items-end">
+          <a href="/home">home</a>|<a href="/about">about</a>|
+          <a href="/blog">blog</a>|<a href="/contact">contact</a>
         </div>
       </header>
       {/* <nav class="flex items-center justify-around flex-wrap bg-white-500 p-6">
@@ -93,7 +94,7 @@ const About = () => {
           </p>
         </div>
         <div class="pic">
-          <img src="/Users/aj/projects/website/src/images/gatsby-icon.png" />
+          <img src="https://imgur.com/DMW8iNR"></img>
         </div>
       </div>
     </div>
