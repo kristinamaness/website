@@ -13,7 +13,7 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 17vh;
   position: sticky;
   top: 0;
@@ -45,14 +45,14 @@ header {
 .text {
   width: 65vw;
   font-size: 14px;
-  padding: 3vw;
+  padding: 20px;
 }
 
 .pic {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   width: 35vw;
-}
-
-.image {
-  max-width: 200px;
+  position: sticky;
+  top: 0;
+  padding: 20px;
+  overflow: hidden;
 }
