@@ -9,16 +9,15 @@
   font-style: normal;
 }
 
-.page {
-  background-image: src= "https://imgur.com/DMW8iNR";
-}
-
 header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   border: 1px solid red;
   height: 17vh;
+  position: sticky;
+  top: 0;
+  background-color: white;
 }
 
 .title {
@@ -37,11 +36,20 @@ header {
 }
 
 .main {
+  background-attachment: fixed;
+  background-image: ;
   display: flex;
+  height: 83vh;
+  overflow: scroll;
 }
 
 .text {
   width: 65vw;
   font-size: 14px;
   padding: 3vw;
+}
+
+.pic {
+  border: 1px solid black;
+  width: 35vw;
 }

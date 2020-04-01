@@ -1,4 +1,6 @@
 import React from "react"
+import "../assets/styles/global.css"
+import Image from "../components/image"
 import "../assets/about.css"
 
 const About = () => {
@@ -94,7 +96,7 @@ const About = () => {
           </p>
         </div>
         <div class="pic">
-          <img src="https://imgur.com/DMW8iNR"></img>
+          <Image class="h-200 w-200" />
         </div>
       </div>
     </div>
