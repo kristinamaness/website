@@ -6,9 +6,9 @@ import "../assets/about.css"
 const About = () => {
   return (
     <div>
-      <header class="flex justify-around">
+      <header>
         <div class="title">About me</div>
-        <div class="tabl flex items-end">
+        <div class="tabs">
           <a href="/home">home</a>|<a href="/about">about</a>|
           <a href="/blog">blog</a>|<a href="/contact">contact</a>
         </div>
@@ -96,7 +96,7 @@ const About = () => {
           </p>
         </div>
         <div class="pic">
-          <Image class="h-200 w-200" />
+          <Image />
         </div>
       </div>
     </div>
